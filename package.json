@@ -1,0 +1,45 @@
+{
+  "name": "api_limonia",
+  "version": "1.0.0",
+  "description": "API para el proyecto LIMONIA",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir build",
+    "dev": "nodemon --exec ./node_modules/.bin/babel-node src/index.js",
+    "start": "node build/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonsohdzm25/LimonIA_API.git"
+  },
+  "author": "Alonso Hernandez Mora",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alonsohdzm25/LimonIA_API/issues"
+  },
+  "homepage": "https://github.com/alonsohdzm25/LimonIA_API#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.14.6",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.7",
+    "@babel/plugin-transform-runtime": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "jest": "^27.0.5",
+    "nodemon": "^2.0.7",
+    "supertest": "^6.1.3"
+  }
+}

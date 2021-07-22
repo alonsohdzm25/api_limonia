@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.limonia",
+    "sha256_cert_fingerprints":
+    ["BD:2A:FF:B6:8C:94:30:0A:53:11:2E:03:4E:26:08:74:5E:60:31:95:5D:59:69:C5:13:6A:53:22:1C:43:1A:08"]
+  }
+}]

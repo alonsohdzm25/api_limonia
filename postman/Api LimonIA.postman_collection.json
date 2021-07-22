@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "b8b2ee6a-fab2-4d3c-b53e-b1d9688d1b08",
+		"name": "Api LimonIA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Plagas",
+			"item": [
+				{
+					"name": "/plagas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				},
+				{
+					"name": "/plagas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": []
+		},
+		{
+			"name": "Auth",
+			"item": []
+		}
+	]
+}
