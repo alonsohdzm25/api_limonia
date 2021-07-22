@@ -1,1 +1,1 @@
-api_limonia
+Api REST creada para la aplicacion LimonIA
